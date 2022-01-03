@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="19043" started-at="2021-12-26T14:57:43 MSK" finished-at="2021-12-26T14:58:02 MSK">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="19043" started-at="2021-12-26T14:57:43 MSK" finished-at="2021-12-26T14:58:02 MSK">
+      <class name="tests.searchamartment.SearchApartmentTest">
+        <test-method status="PASS" signature="checkIsRedirectToListing()[pri:0, instance:tests.searchamartment.SearchApartmentTest@53045c6c]" name="checkIsRedirectToListing" duration-ms="18992" started-at="2021-12-26T14:57:43 MSK" finished-at="2021-12-26T14:58:02 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIsRedirectToListing -->
+      </class> <!-- tests.searchamartment.SearchApartmentTest -->
+      <class name="tests.base.BaseTest">
+        <test-method status="PASS" signature="clearCookiesAndLocalStorage()[pri:0, instance:tests.base.BaseTest@3a7442c7]" name="clearCookiesAndLocalStorage" is-config="true" duration-ms="12" started-at="2021-12-26T14:58:02 MSK" finished-at="2021-12-26T14:58:02 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookiesAndLocalStorage -->
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.base.BaseTest@3a7442c7]" name="close" is-config="true" duration-ms="429" started-at="2021-12-26T14:58:02 MSK" finished-at="2021-12-26T14:58:03 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.base.BaseTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
