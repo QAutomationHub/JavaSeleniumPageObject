@@ -7,9 +7,8 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import pages.base.BasePage;
 import pages.listing.RealtListingPage;
-import methods.Methods;
 import pages.realt_home.RealtHomePage;
-import pages.sinsay_home.SinsayHomePage;
+
 
 import static common.Config.CLEAR_COOKIES_AND_STORAGE;
 import static common.Config.HOLD_BROWSER_OPEN;
@@ -20,8 +19,7 @@ public class BaseTest {
     protected BasePage basePage = new BasePage(driver);
     protected RealtHomePage realtHomePage = new RealtHomePage(driver);
     protected RealtListingPage realtListingPage = new RealtListingPage(driver);
-    protected SinsayHomePage sinsayHomePage = new SinsayHomePage(driver);
-    protected Methods methods = new Methods(driver);
+
 
     @AfterTest
     public void clearCookiesAndLocalStorage() {
