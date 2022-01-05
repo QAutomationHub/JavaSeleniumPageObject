@@ -1,8 +1,11 @@
 package pages.realt_home;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
 import pages.base.BasePage;
 
 public class RealtHomePage extends BasePage {
@@ -22,8 +25,7 @@ public class RealtHomePage extends BasePage {
     }
 
     public RealtHomePage clickToFind(){
-        WebElement btnFind = driver.findElement(findBtn);
-        waitElementIsVisible(btnFind).click();
+        waitElementIsVisible(driver.findElement(findBtn)).click();
         return this;
     }
 

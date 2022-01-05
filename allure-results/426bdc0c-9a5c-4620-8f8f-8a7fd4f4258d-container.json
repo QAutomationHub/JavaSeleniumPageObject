@@ -1,0 +1,1 @@
+{"uuid":"426bdc0c-9a5c-4620-8f8f-8a7fd4f4258d","name":"JavaSeleniumPageObject","start":1641380210124,"stop":1641380217851,"children":["2fd51434-d9d3-40d8-ae97-c714524e2556"],"afters":[{"name":"clearCookiesAndLocalStorage","status":"passed","stage":"finished","description":"","start":1641380217527,"stop":1641380217850}]}
