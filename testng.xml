@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<!-- По пакету -->
+
+
+<!--<suite name="All Test Suite">-->
+<!--    <test name="package: tests.tests_demo">-->
+
+<!--        <packages>-->
+<!--            <package name="tests.tests_demo"></package>-->
+<!--        </packages>-->
+
+<!--    </test>-->
+<!--</suite>-->
+
+
+<!-- По классу-->
+
+<!--<suite name="All Test Suite">-->
+<!--    <test name="Test1">-->
+<!--        <classes>-->
+<!--            <class name="tests.tests_demo.Test1"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Test2">-->
+<!--        <classes>-->
+<!--            <class name="tests.tests_demo.Test2"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--</suite>-->
+
+
+<!-- По методу -->
+
+<!--<suite name="All Test Suite">-->
+<!--    <test name="Test1">-->
+<!--        <classes>-->
+<!--            <class name="tests.tests_demo.Test1">-->
+<!--                <methods>-->
+<!--                    <include name="test1"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Test2">-->
+<!--        <classes>-->
+<!--            <class name="tests.tests_demo.Test2">-->
+<!--                <methods>-->
+<!--                    <include name="test2"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--</suite>-->
+
+
+<!-- По группам-->
+
+<!--<suite name="All Test Suite">-->
+<!--    -->
+<!--    <groups>-->
+<!--        <run>-->
+<!--<include name="smokeTest"/>-->
+<!--        </run>-->
+<!--    </groups>-->
+<!--    -->
+<!--    <test name="Test1">-->
+<!--        <classes>-->
+<!--            <class name="tests.tests_demo.Test1"></class>-->
+<!--            <class name="tests.tests_demo.Test2"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--</suite>-->
+
+
+<!-- @Parameters-->
+
+<suite name="All Test Suite">
+    <test name="Test1">
+        <parameter name="string" value="Hello !"></parameter>
+        <classes>
+            <class name="tests.tests_demo.Test1"></class>
+            <class name="tests.tests_demo.Test2"></class>
+            <class name="tests.tests_demo.Test3"></class>
+        </classes>
+    </test>
+</suite>
+
+<!-- @DataProvider-->
+
+<!--<suite name="All Test Suite">-->
+<!--    <test name="Test1">-->
+<!--        <classes>-->
+<!--            <class name="tests.tests_demo.Test2"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--</suite>-->

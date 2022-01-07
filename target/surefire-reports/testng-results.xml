@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="All test suite" duration-ms="7847" started-at="2022-01-05T11:52:15Z" finished-at="2022-01-05T11:52:23Z">
+  <suite name="All Test Suite" duration-ms="7596" started-at="2022-01-07T15:57:45Z" finished-at="2022-01-07T15:57:52Z">
     <groups>
     </groups>
-    <test name="test1" duration-ms="7847" started-at="2022-01-05T11:52:15Z" finished-at="2022-01-05T11:52:23Z">
+    <test name="Test 1" duration-ms="7596" started-at="2022-01-07T15:57:45Z" finished-at="2022-01-07T15:57:52Z">
       <class name="tests.searchapartment.SearchApartmentTest">
-        <test-method status="PASS" signature="checkIsRedirectToListing()[pri:0, instance:tests.searchapartment.SearchApartmentTest@3f685162]" name="checkIsRedirectToListing" duration-ms="7352" started-at="2022-01-05T11:52:15Z" finished-at="2022-01-05T11:52:22Z">
+        <test-method status="PASS" signature="checkIsRedirectToListing()[pri:0, instance:tests.searchapartment.SearchApartmentTest@15b82644]" name="checkIsRedirectToListing" duration-ms="7011" started-at="2022-01-07T15:57:45Z" finished-at="2022-01-07T15:57:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkIsRedirectToListing -->
-        <test-method status="PASS" signature="clearCookiesAndLocalStorage()[pri:0, instance:tests.searchapartment.SearchApartmentTest@3f685162]" name="clearCookiesAndLocalStorage" is-config="true" duration-ms="339" started-at="2022-01-05T11:52:23Z" finished-at="2022-01-05T11:52:23Z">
+        <test-method status="PASS" signature="clearCookiesAndLocalStorage()[pri:0, instance:tests.searchapartment.SearchApartmentTest@15b82644]" name="clearCookiesAndLocalStorage" is-config="true" duration-ms="416" started-at="2022-01-07T15:57:52Z" finished-at="2022-01-07T15:57:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearCookiesAndLocalStorage -->
-        <test-method status="PASS" signature="close()[pri:0, instance:tests.searchapartment.SearchApartmentTest@3f685162]" name="close" is-config="true" duration-ms="78" started-at="2022-01-05T11:52:23Z" finished-at="2022-01-05T11:52:23Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.searchapartment.SearchApartmentTest@15b82644]" name="close" is-config="true" duration-ms="92" started-at="2022-01-07T15:57:52Z" finished-at="2022-01-07T15:57:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- tests.searchapartment.SearchApartmentTest -->
-    </test> <!-- test1 -->
-  </suite> <!-- All test suite -->
+    </test> <!-- Test 1 -->
+  </suite> <!-- All Test Suite -->
 </testng-results>

@@ -1,2 +1,6 @@
-tests/base/BaseTest.class
+tests/tests_demo/Retry.class
 tests/searchapartment/SearchApartmentTest.class
+tests/tests_demo/Test2.class
+tests/tests_demo/Test3.class
+tests/base/BaseTest.class
+tests/tests_demo/Test1.class

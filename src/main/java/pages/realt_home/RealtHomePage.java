@@ -18,6 +18,7 @@ public class RealtHomePage extends BasePage {
     private final By optionToRooms = By.xpath("//select[@id='rooms']/option[@value='2']");
     private final By findBtn = By.xpath("//a[@class='common-search-submit btn btn-primary']");
 
+
     public RealtHomePage enterCountRooms(){
         driver.findElement(countRooms).click();
         driver.findElement(optionToRooms).click();

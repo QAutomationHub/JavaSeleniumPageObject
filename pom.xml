@@ -16,7 +16,7 @@
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <suiteXml>testng.xml</suiteXml>
+        <suiteXml>realt.xml</suiteXml>
     </properties>
 
     <dependencies>
@@ -45,6 +45,14 @@
             <version>6.14.3</version>
             <scope>compile</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.6.1</version>
+            <scope>test</scope>
+        </dependency>
+
 
     </dependencies>
 

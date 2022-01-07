@@ -1,6 +1,6 @@
 package tests.searchapartment;
 
-import io.qameta.allure.Description;
+import io.qameta.allure.Step;
 import org.testng.annotations.Test;
 import tests.base.BaseTest;
 import static constants.Constant.Urls.REALT_HOME_PAGE;
